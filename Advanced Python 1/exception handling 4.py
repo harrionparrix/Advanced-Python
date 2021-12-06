@@ -1,0 +1,9 @@
+while(True):
+    try:
+        i=int(input("Enter a number: "))
+        c=1/i
+    except Exception as e:
+        print(e)
+    else:
+        print("No Error")
+        

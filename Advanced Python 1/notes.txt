@@ -1,0 +1,35 @@
+{try:
+except:
+throws exception
+else:
+works with except
+finally:
+works no matter what is in except
+}
+
+{
+if __name__="__main__":
+    pass , or any code
+//evaluates name of the module
+if same file accessing: its __main__
+else its module name of the module from where the program is run
+}
+
+{
+global variable cann change if
+a=12
+def ddfs():
+    global a
+    a=12 // value changed globally
+}
+
+{
+enumerate function adds counter to an iterable and returns iterable
+items of list with index
+
+}
+
+{
+    elegant and shortcut way
+    [i for i in a if i%2==0]
+}
